@@ -1,0 +1,16 @@
+Name:           emax-wep-build
+License:        BSD3
+License-file:   LICENSE
+Version:        0.2
+Author:         laypod Une
+Maintainer:     miak.enina@gmail.com
+Category:       Sound, Music
+Synopsis:       Tests for the Emax Web sequencer library.
+Description:    Tests for the Emax Web sequencer library.  
+Build-type:     Simple
+Cabal-Version: >= 1.2.2
+
+Executable test1
+  main-is: test1.hs
+  Build-Depends:  base >= 4.5 && < 4.7
+
